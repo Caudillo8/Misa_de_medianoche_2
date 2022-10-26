@@ -212,14 +212,6 @@ iframe{
         font-size: 20px;
         color:black;
     }
-    .menu{
-        font-size:20px;
-        height: 20px;
-        display:none;
-        background-color: rgb(124, 49, 49);
-        opacity: 0.6;
-        color:black;
-    }
     footer{
         width: 330px;
     }
@@ -240,8 +232,20 @@ iframe{
         overflow-y: auto;
         flex-direction: column;
     }
+    .menu{
+        display: none;
+    }
     .visible{
         display: block;
+        font-size:20px;
+        height: 20px;
+        background-color: rgb(124, 49, 49);
+        opacity: 0.6;
+        color:black;
+        border:none;
+    }
+    .invisible{
+        display: none;
     }
 
 
