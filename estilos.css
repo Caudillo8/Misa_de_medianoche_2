@@ -41,10 +41,11 @@ li{
 }
 a{
     text-decoration: none;
-}
-a:visited{
     color:white;
 }
+/*a:visited{
+    color:white;
+}*/
 a:hover{
     color:red;
 }
@@ -52,8 +53,9 @@ a:hover{
     font-family: 'Playfair Display', serif;
     font-size:20px;
     font-weight: bold;
-    text-align: center;
+    text-align: left;
     /*border:solid black;*/
+    padding: 10px;
 }
 .textoSinopsis{
     overflow-y: scroll;
@@ -69,13 +71,16 @@ a:hover{
     font-weight: bold;
     text-justify:auto;
     top:300px;
-    right: 30px;
+    right: 50px;
 }
 table, td{
     border: solid black;
     border-collapse: collapse;
+    
 }
-
+table{
+    width: 100%;
+}
 .home{
     border: none;
     float:left;
@@ -114,7 +119,7 @@ footer{
     background-color:rgb(218, 27, 27);
     color:black;
     width: 750px;                   /*  si el ancho es 1300 ? xq se ajusta a otro nro?*/
-    height: 40px;
+    height: 50px;
     font-family: 'Oswald', sans-serif;
     font-size:10px;
     align-content: center;
@@ -131,12 +136,10 @@ button{
     border:solid black;
     width: 700px;
     height: 380px;
-    left: 500px;
-    position: absolute;
-    top:120px;
+    position: relative;
 }
 .contenedorGaleria{
-    position: absolute;
+    position: relative;
     display: flexbox;
     flex-direction: row;
     overflow-y: auto;
@@ -158,14 +161,21 @@ button{
 .contenedorImagenGaleria:hover{
     opacity: 70%;
 }
-
+iframe{
+    width: 95%;
+    padding:10px;
+}
 /*******************************************RESPONSIVE****************************/
-@media screen and (max-width: 576px){
+@media screen and (max-width: 600px){
     *{
         width: 500px;/*no lo efectúa con todo*/
     }
     body, footer{
         width: 576px;
+        overflow: auto;
+    }
+    section{
+        height: 250px;
     }
     button{
         display:block;
@@ -187,26 +197,31 @@ button{
         top:0px;
 
     }
+    .textoPortada{
+        font-size: 23px;
+        left: 50%;
+        top:25%;
+        width: 200px;
+        height: 150px;
+        /*border: solid black;*/
+        display: flex;
+        flex-direction: column;
+    }
+    .textoContenido {
+        /*display: none;*/
+        font-size: 20px;
+        color:black;
+    }
     .menu{
         font-size:20px;
         height: 20px;
         display:none;
-        background-color: yellow;
+        background-color: rgb(124, 49, 49);
         opacity: 0.6;
         color:black;
     }
-    .textoPortada{
-        display: none;
-    }
-    .textoContenido {
-        /*display: none;*/
-        font-size: 10px;
-        color:darkred;
-    }
-
     footer{
-        width: 350px;
-        background-color: rgb(62, 62, 175);
+        width: 330px;
     }
     .formulario{
         left: 0%;
@@ -216,10 +231,8 @@ button{
     .textoSinopsis{
         font-size: 15px;
     }
-    tr, td{
-        width: 180px;
-        display: flex;
-        font-size: 10px;
+    tr{
+        width: 330px;
     }
     .contenedorGaleria{
         height: 370px;
