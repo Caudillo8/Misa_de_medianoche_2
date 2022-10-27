@@ -31,7 +31,15 @@ function mostarMenu() {
     var _4 = document.getElementById("menu4");
     var _5 = document.getElementById("menu5");
 
-    if (_0.className === "menu" || _0.className === "invisible") {
+    if (
+      _0.className === "menu" || _0.className === "invisible"||
+      _1.className === "menu" || _1.className === "invisible"||
+      _2.className === "menu" || _2.className === "invisible"||
+      _3.className === "menu" || _3.className === "invisible"||
+      _4.className === "menu" || _4.className === "invisible"||
+      _5.className === "menu" || _5.className === "invisible"
+    
+    ) {
       _0.className = "visible";
       _1.className = "visible";
       _2.className = "visible";
