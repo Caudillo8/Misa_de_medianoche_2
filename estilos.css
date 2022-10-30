@@ -170,7 +170,7 @@ iframe{
     *{
         width: 500px;/*no lo efectúa con todo*/
     }
-    body, footer{
+    body{
         width: 576px;
         overflow: auto;
     }
@@ -223,8 +223,9 @@ iframe{
     .textoSinopsis{
         font-size: 15px;
     }
-    tr{
-        width: 330px;
+
+    table{
+        width: 570px;
     }
     .contenedorGaleria{
         height: 370px;
@@ -243,6 +244,7 @@ iframe{
         opacity: 0.6;
         color:black;
         border:none;
+        padding: 5px;
     }
     .invisible{
         display: none;
