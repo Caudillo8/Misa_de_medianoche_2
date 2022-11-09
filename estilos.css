@@ -178,16 +178,17 @@ iframe {
 @media screen and (max-width: 576px){
   body {
     max-width: 576px;
+    height: 1000px;
     overflow: auto;
   }
   section {
-    height: 250px;
+    height: 500px;
   }
   button {
     display: block;
     color: white;
-    width: 10%;
-    height: 60px;
+    width: 100px;
+    height: 100px;
   }
   nav {
     display: flex;
@@ -203,7 +204,7 @@ iframe {
     top: 0px;
   }
   .textoPortada {
-    font-size: 23px;
+    font-size: 30px;
     left: 50%;
     top: 25%;
     width: 200px;
