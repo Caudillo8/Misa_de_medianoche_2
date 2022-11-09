@@ -15,7 +15,6 @@ body {
   border: none;
   width: 1300px;
   height: 620px;
-  background-color: none;
   margin: auto;
   padding-top: 10px;
 }
@@ -175,12 +174,10 @@ iframe {
 }
 
 /*******************************************RESPONSIVE****************************/
-@media screen and (max-width: 576px) and (orientation: portrait) {
-  * {
-    width: 576px;
-  }
+
+@media screen and (max-width: 576px){
   body {
-    width: 576px;
+    max-width: 576px;
     overflow: auto;
   }
   section {
@@ -200,7 +197,6 @@ iframe {
   .home {
     font-size: 15px;
     height: 20px;
-    /*border:solid white;*/
     margin-left: 50%;
     display: flex;
     position: absolute;
@@ -212,7 +208,6 @@ iframe {
     top: 25%;
     width: 200px;
     height: 150px;
-    /*border: solid black;*/
     display: flex;
     flex-direction: column;
   }
@@ -221,18 +216,17 @@ iframe {
     flex-wrap: wrap;
     font-size: 20px;
     color: black;
-    /*border: solid black;*/
     width: 520px;
   }
   footer {
-    width: 320px;
+    max-width: 576px;
   }
   #input_formulario {
     width: 400px;
   }
   .formulario {
     left: 0%;
-    width: 576px;
+    max-width: 576px;
     display: flex;
     flex-wrap: wrap;
     border: solid black;
@@ -259,7 +253,7 @@ iframe {
   }
   .contenedorGaleria {
     height: 370px;
-    width: 530px;
+    max-width: 576px;
     overflow-y: auto;
     flex-direction: column;
   }
@@ -280,3 +274,5 @@ iframe {
     display: none;
   }
 }
+
+
