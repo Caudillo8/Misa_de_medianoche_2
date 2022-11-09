@@ -36,16 +36,18 @@
     </section>
     <div class="formulario">
         <form action="#" target="#" method="get">
-            <label>Nombre y Apellido</label>&nbsp;&nbsp;<input type="text" placeholder="Juan Perez "
+            <label>Nombre y Apellido</label>&nbsp;&nbsp;<input id="input_formulario"  type="text" placeholder="Juan Perez "
                 name="nombre completo" autofocus="autofocus" title="Coloca tu nombre completo"><br><br>
-            <label>Email</label>&nbsp;&nbsp;<input type="email" name="mail" placeholder="algo@tuCorreo.com"
+            <label>Email</label>&nbsp;&nbsp;<input id="input_formulario" type="email" name="mail" placeholder="algo@tuCorreo.com"
                 title="ingresa tu email"><br><br>
             <label>Comentario</label><br><textarea name="area de texto" placeholder="me gustó la web" rows="10"
-                cols="80" title="escriba aquí..."></textarea>
-            <br><br><input type="submit" value="ENVIAR" style="color:brown">
+                cols="60" title="escriba aquí..."></textarea>
+            <br><br><input type="submit" value="ENVIAR" style="color:gray">
         </form>
     </div>
-    <footer><img src="svg/instagram.svg" id="iconos" /><img src="svg/facebook.svg" id="iconos" /><img
+    <div class="imagen_formulario"></div>
+    
+    <footer id="footer_formulario"><img src="svg/instagram.svg" id="iconos" /><img src="svg/facebook.svg" id="iconos" /><img
             src="svg/youtube.svg" id="iconos" /></footer>
     <script src="script.js"></script>
 </body>
