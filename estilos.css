@@ -175,10 +175,10 @@ iframe {
 
 /*******************************************RESPONSIVE****************************/
 
-@media screen and (max-width: 576px){
+@media screen and (max-width: 576px) {
   body {
     max-width: 576px;
-    height: 1000px;
+    height: 900px;
     overflow: auto;
   }
   section {
@@ -206,7 +206,7 @@ iframe {
   .textoPortada {
     font-size: 30px;
     left: 50%;
-    top: 25%;
+    top: 30%;
     width: 200px;
     height: 150px;
     display: flex;
@@ -220,7 +220,7 @@ iframe {
     width: 520px;
   }
   footer {
-    max-width: 576px;
+    max-width: 380px;
   }
   #input_formulario {
     width: 400px;
@@ -253,7 +253,7 @@ iframe {
     width: 200px;
   }
   .contenedorGaleria {
-    height: 370px;
+    height: 450px;
     max-width: 576px;
     overflow-y: auto;
     flex-direction: column;
@@ -275,5 +275,3 @@ iframe {
     display: none;
   }
 }
-
-
