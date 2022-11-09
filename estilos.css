@@ -175,7 +175,7 @@ iframe {
 }
 
 /*******************************************RESPONSIVE****************************/
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 576px) and (orientation: portrait) {
   * {
     width: 576px;
   }
