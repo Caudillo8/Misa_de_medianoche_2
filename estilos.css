@@ -1,13 +1,10 @@
 * {
   margin: 0px;
   padding: 0px;
-  /*font-family: 'Oswald', sans-serif; ME CAMBIA TODO*/
-  border: none;
 }
 nav {
   width: 100%;
   height: 10%;
-  /*border: solid yellow;*/
   height: 100px;
   background-color: black;
 }
@@ -39,9 +36,7 @@ a {
   text-decoration: none;
   color: white;
 }
-/*a:visited{
-    color:white;
-}*/
+
 a:hover {
   color: red;
 }
@@ -51,17 +46,15 @@ a:hover {
   font-size: 20px;
   font-weight: bold;
   text-align: left;
-  /*border:solid black;*/
   padding: 10px;
 }
 .textoSinopsis {
-  overflow-y: scroll;
+  /*overflow-y: scroll;*/
   height: 400px;
   width: 100%;
 }
 .textoPortada {
   position: absolute;
-  /*border: solid black;*/
   text-shadow: 0.3px;
   font-family: "Tangerine", cursive;
   font-size: 60px;
@@ -109,7 +102,6 @@ img {
 
 footer {
   position: absolute;
-  /*margin-top:0px;*/
   margin-bottom: 0px;
   border: solid black;
   background-color: rgb(218, 27, 27);
@@ -162,7 +154,6 @@ button {
   float: left;
   width: 200px;
   height: 120px;
-  /*border: solid black;*/
   margin: 10px;
 }
 .contenedorImagenGaleria:hover {
@@ -172,7 +163,16 @@ iframe {
   width: 95%;
   padding: 10px;
 }
-
+#contenedor_imagen_sinopsis{
+  width: 1280px;
+  height: 500px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+#footer_sinopsis{
+  margin-top:2200px;
+}
 /*******************************************RESPONSIVE****************************/
 
 @media screen and (max-width: 576px) {
@@ -273,5 +273,8 @@ iframe {
   }
   .invisible {
     display: none;
+  }
+  #footer_sinopsis{
+    margin-top: 2900px;
   }
 }
