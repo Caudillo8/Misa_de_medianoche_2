@@ -140,11 +140,9 @@ button {
   position: relative;
   display: flexbox;
   flex-direction: row;
-  overflow-y: auto;
-  border: solid black;
   margin: auto;
-  width: 1200px;
-  height: 350px;
+  width: 1300px;
+  height: 500px;
   padding: 10px;
   margin: 10px;
 }
@@ -152,7 +150,7 @@ button {
   position: relative;
   float: left;
   width: 200px;
-  height: 120px;
+  height: 150px;
   margin: 10px;
 }
 .contenedorImagenGaleria:hover {
@@ -260,10 +258,10 @@ iframe {
     width: 200px;
   }
   .contenedorGaleria {
-    height: 800px;
+    height: 1250px;
     max-width: 530px;
-    overflow-y: auto;
     flex-direction: column;
+    border:none;
   }
   .menu {
     display: none;
@@ -292,5 +290,8 @@ iframe {
     width: 550px;
     height: 350px;
 
+  }
+  #footer_galeria{
+    margin-top:400px;
   }
 }
