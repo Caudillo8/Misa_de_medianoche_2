@@ -173,9 +173,7 @@ iframe {
 #footer_sinopsis{
   margin-top:2200px;
 }
-#foto_inicio{
-  height:800px;
-}
+
 /*******************************************RESPONSIVE****************************/
 
 @media screen and (max-width: 576px) {
