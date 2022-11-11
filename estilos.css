@@ -163,15 +163,15 @@ iframe {
   width: 95%;
   padding: 10px;
 }
-#contenedor_imagen_sinopsis{
+#contenedor_imagen_sinopsis {
   width: 1280px;
   height: 500px;
   background-size: cover;
   display: flex;
   justify-content: center;
 }
-#footer_sinopsis{
-  margin-top:2200px;
+#footer_sinopsis {
+  margin-top: 2200px;
 }
 
 /*******************************************RESPONSIVE****************************/
@@ -275,7 +275,7 @@ iframe {
   .invisible {
     display: none;
   }
-  #footer_sinopsis{
+  #footer_sinopsis {
     margin-top: 2900px;
   }
 }
