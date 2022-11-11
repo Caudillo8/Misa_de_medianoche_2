@@ -196,7 +196,7 @@ iframe {
     height: 10%;
   }
   .home {
-    font-size: 15px;
+    font-size: 17px;
     height: 20px;
     margin-left: 50%;
     display: flex;
@@ -269,8 +269,9 @@ iframe {
     display: none;
   }
   .visible {
-    width: 25%;
+    width: 20%;
     display: block ;
+    font-family: "Oswald", sans-serif;
     font-size: 20px;
     height: 20px;
     background-color: rgb(124, 49, 49);
