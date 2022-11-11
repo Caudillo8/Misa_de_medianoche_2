@@ -178,7 +178,7 @@ iframe {
 @media screen and (max-width: 576px) {
   body {
     max-width: 576px;
-    height: 900px;
+    height: 800px;
     overflow: auto;
   }
   section {
@@ -225,6 +225,9 @@ iframe {
   #input_formulario {
     width: 400px;
   }
+  #footer_formulario{
+    margin-top: 500px;
+  }
   .formulario {
     left: 0%;
     max-width: 576px;
@@ -246,8 +249,12 @@ iframe {
     overflow: auto;
   }
   #tabla_reparto_personaje {
+    width: 200px; 
+  }
+  #celda_foto_temporada, #celda_foto_reparto{
     width: 200px;
     display: flex;
+    box-sizing: border-box;
   }
   #tabla_reparto_actor {
     width: 200px;
@@ -262,19 +269,27 @@ iframe {
     display: none;
   }
   .visible {
-    display: block;
+    width: 25%;
+    display: block ;
     font-size: 20px;
     height: 20px;
     background-color: rgb(124, 49, 49);
     opacity: 0.6;
     color: black;
     border: none;
-    padding: 5px;
+    padding: 15px;
   }
   .invisible {
     display: none;
   }
   #footer_sinopsis {
-    margin-top: 2900px;
+    margin-top: 2500px;
+  }
+  #contenedor_imagen_sinopsis{
+    display: flex;
+    box-sizing: border-box;
+    width: 550px;
+    height: 350px;
+
   }
 }
